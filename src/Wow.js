@@ -53,6 +53,9 @@ return(<main className="wow-container">
         ))}
       
   </ul>
+<footer>{items.length}{items.length<=1?("item"):"items"}
+  
+  </footer>
   {/* <App it={items.length}/> */}
 </main>)
   
